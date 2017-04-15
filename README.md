@@ -1,4 +1,4 @@
-# util-lola
+# util-lola [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 
 Polymer component based in (LoLa (loading layer)) https://github.com/manufosela/LoLa
 
