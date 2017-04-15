@@ -12,3 +12,18 @@ Put the component in your polymer app.
 * **timeout** value if you want to close in that seconds.
 
 Change **active** attribute to **false** in a callback to close the Loading Layer when all process has loaded.
+
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="import" href="https://raw.githubusercontent.com/Download/polymer-cdn/master/lib/polymer/polymer.html">
+    <link rel="import" href="util-lola.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<util-lola active="true" timeout="2"></util-lola>
+```
