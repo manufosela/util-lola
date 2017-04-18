@@ -25,5 +25,7 @@ Change **active** attribute to **false** in a callback to close the Loading Laye
 ```
 -->
 ```html
+<p style="height: 500px">
 <util-lola active="true" timeout="2" message="2 seconds demo and it will close itself"></util-lola>
+</p>
 ```
