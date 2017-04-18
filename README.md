@@ -13,11 +13,11 @@ Put the component in your polymer app.
 
 Change **active** attribute to **false** in a callback to close the Loading Layer when all process has loaded.
 
-<!--
+<!---
 ```
 <custom-element-demo>
   <template>
-    <link rel="import" href="https://raw.githubusercontent.com/Download/polymer-cdn/master/lib/polymer/polymer.html">
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="util-lola.html">
     <next-code-block></next-code-block>
   </template>
@@ -25,5 +25,5 @@ Change **active** attribute to **false** in a callback to close the Loading Laye
 ```
 -->
 ```html
-<util-lola active="true" timeout="2" message="2 seconds demo"></util-lola>
+<util-lola active="true" timeout="2" message="2 seconds demo and it will close itself"></util-lola>
 ```
