@@ -18,6 +18,9 @@ Change **active** attribute to **false** in a callback to close the Loading Laye
 <custom-element-demo>
   <template>
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <style>
+      body { height:500px; max-height:500px; min-height:500px; }
+    </style>
     <link rel="import" href="util-lola.html">
     <next-code-block></next-code-block>
   </template>
@@ -25,7 +28,5 @@ Change **active** attribute to **false** in a callback to close the Loading Laye
 ```
 -->
 ```html
-<p style="height: 500px">
 <util-lola active="true" timeout="2" message="2 seconds demo and it will close itself"></util-lola>
-</p>
 ```
