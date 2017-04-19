@@ -18,10 +18,10 @@ Change **active** attribute to **false** in a callback to close the Loading Laye
 <custom-element-demo>
   <template>
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-    <style>
-      body { height:500px; max-height:500px; min-height:500px; }
-    </style>
     <link rel="import" href="util-lola.html">
+    <style>
+      html, body { height:500px; max-height:500px; min-height:500px; }
+    </style>
     <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
