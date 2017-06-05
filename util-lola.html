@@ -1,3 +1,4 @@
+<link rel="import" href="bower_components/polymer/polymer-element.html">
 <dom-module id="util-lola">
   <template>
   </template>
@@ -29,11 +30,11 @@
 
       constructor() {
         super();
-        this.attached();
         //console.log('constuctor');
       }
 
-      attached() {
+      connectedCallback() { 
+        super.connectedCallback(); 
         Polymer.RenderStatus.beforeNextRender(this, function() {
           var lola = document.createElement('div');
           lola.id='lolaContainer';
